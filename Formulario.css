@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:wght@700&display=swap');
+body{
+    background-color: rgb(255, 255, 255);
+}
+img{width:80%;
+  display: block;}
+
+.li, a, button{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding:16px;
+    color: rgb(0, 0, 0);
+    user-select: none;
+  }
+.barra{
+    display: flex;
+    list-style: none;
+    background: rgb(255, 255, 255);
+    padding: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+  }
+  .buscador li{
+    display: inline-block
+  }
+  .buscador li a:{
+    transition: all 0.3s ease 0s;}
+ 
+  .buscador li a:hover{
+    color:rgb(139, 127, 127)
+  }
+  button{
+    background-color: black;
+    border:none;
+    border-radius: 30px;
+    color:aliceblue
+  }
+  button:hover{
+    background-color: rgb(120, 125, 126);
+  }
+  h2{
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding:16px;
+    color: rgb(0, 0, 0);
+    user-select: none;
+    
+  }
+  legend{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding:16px;
+    color: rgb(0, 0, 0);
+    user-select: none;
+    
+  }
+  .Contenedor{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+  }
+  .Contenedor div{
+    flex: 1 0 0;
+  }
+  .Contenedor div form{
+    flex: 5 1 550px;
+    background-color: rgb(255, 255, 255);
+  }
+  .Contenedor div img{
+    flex: 1 4 0;
+    min-height:100%;
+    margin-left: 40px;
+  }
+
+  input{
+    border-radius: 4px;
+    align-self: center;
+  }
+
+  label{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    user-select: none;
+    
+  }
+
+  option{
+    border-radius: 4px;
+    font-family: "Monserrat",sans-serif;
+    font-size: 15px;
+  }
+  select{
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  fieldset{
+    border-radius: 10px;
+    
+  }
+  p2{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    user-select: none;
+
+  }

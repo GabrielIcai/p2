@@ -1,0 +1,185 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:wght@700&display=swap');
+body{
+    background-color: rgb(255, 255, 255);
+}
+img{
+  max-width:100%;
+  display: block;}
+
+
+.li, a, button{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding:16px;
+    color: rgb(0, 0, 0);
+    user-select: none;
+  }
+.barra{
+    display: flex;
+    list-style: none;
+    background: rgb(255, 255, 255);
+    padding: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+  }
+  .buscador li{
+    display: inline-block
+  }
+ 
+  .buscador li a:hover{
+    color:rgb(139, 127, 127)
+  }
+  button{
+    background-color: black;
+    border:none;
+    border-radius: 30px;
+    color:aliceblue
+  }
+  button:hover{
+    background-color: rgb(120, 125, 126);
+  }
+  
+  .banner1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .imagenbaner{
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding:0px;
+    min-width: 100%;
+  }
+
+  
+  .banner-text{
+    position: absolute;
+    top: 140px;
+    left:510px;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+  }
+  .banner2{
+    display:flex;
+    margin: top 4px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .banner2 img{
+    margin:4px;
+    max-width:50% ;
+    max-height: 630px;
+    flex:1 1 0;
+    max-width: 100%;
+   }
+
+  .container2{
+    margin-top: 10px;;
+    background-color: rgb(230, 232, 232);
+    border-radius: 70px;
+    padding: 40px;
+    padding-left: 40px;
+  }
+  .container2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container2 p1:first-child{
+    flex: 2 0 1;
+    margin-left:2px;
+  }
+  video{
+    margin-top:10px
+  }
+  h2{
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding:30px;
+    margin-top: 2px;
+    text-align: center;
+  }
+  p1{
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding:10px;
+    margin-right: 10px;
+    text-align:center;
+    border-radius: 20px;
+    
+  }
+  .container_3{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+    padding-bottom: 80px;
+  }
+  .container_3 img {
+    flex:1 2 0;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  .container_3 h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-size: 30px;
+    
+    
+  }
+  .container_3 h4 {
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align:center;
+    
+    
+  }
+  .container_3 h5 {
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align:center;
+   
+    
+  }
+  .energia{border-radius: 10px;}
+  .coche{border-radius: 10px;}
+  .nothing{border-radius: 10px;}
+  
+  footer {
+    position:fixed;
+    bottom:0; /** Asi lo establece abajo del todo**/
+    text-align:center;
+    width:100%;
+    border-bottom: 2px solid;
+    background-color: #ffffff;
+    color: #2b2929;
+    padding:0.20rem;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+}

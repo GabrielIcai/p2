@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Musk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <header class="barra">
+        <a href="Portada.html"><img src="MUSK2.png" width="80" height="80"></a>
+      <nav>
+            <ul class="buscador">
+                <li><a href="Portada.html">Home</a> </li>
+                <li><a href="Cars.html">Cars</a> </li>
+                <li><a id="I9" href="I9.html">New Musk I9</a> </li>
+                
+            </ul>
+      </nav>
+      <a href="AboutUs.html"><button>About us</button></a> 
+    </header>
+    <main>
+    <h2>Fill out to Pre-Order</h2>
+    <div class="Contenedor">
+    
+        <div><img src="banner.jpg"></div>
+    
+        <div><form action="URL absoluta o relativa" method="get o post">
+        <fieldset>
+        <legend>Model</legend>
+        <p>
+         <label for="modelo_id">Model:</label>
+          <br>
+          <select name="modelo" id="model_id">
+            <option value="Musk I9">Musk I9</option>
+             <option value="Musk I9 M">Musk I9 M</option>
+             <option value="Musk I9 M +">Musk I9 M +</option></select>
+        </p>
+        
+        <p>
+            <label for="color_id">Color:</label><br>
+              <input type=color id="color_id" value=#f6b73c required>
+           </p>
+           <p>
+            <p>
+              <p2>Extras:</p2>
+                <ul>
+                 <li>
+                   <input type="checkbox" id="extra-1_id" name='extras' value="extra1">
+                   <label for="extra-1_id">Autonomous Driving</label>
+                 </li>
+                 <li>
+                 
+                   <input type="checkbox" id="extra-2_id" name='extras' value="extra2">
+                  <label for="extra-2_id">Glass Ceiling</label>
+                 </li>
+                 <li>
+                 
+                    <input type="checkbox" id="extra-2_id" name='extras' value="extra2">
+                   <label for="extra-2_id">High-Performance Suspension</label>
+                  </li>
+                 <li>
+                  
+                   <input type="checkbox" id="extra-3_id" name='extras' value="extra3">
+                  <label for="extra-3_id">Remote Start</label>
+                 </li>
+                </ul>
+               </p>
+               
+            </fieldset>
+    <fieldset>
+    <legend>Personal Info</legend>
+        <p>
+        <label for="email_id">Email:</label><br>
+          <input type="text" id="email_id" name='email' required>
+       </p>
+        <p>
+         <label for="phone_id">Phone Number:</label><br>
+           <input type="text" id="phone_id" name='telefono' required>
+        </p>
+        <p>
+            <label for="address_id">Address:</label><br>
+              <input type="text" id="address_id" name='address' required>
+           </p>
+       </fieldset>
+
+       
+        <legend>Delivery</legend>
+        <fieldset>
+        <p>
+         <label for="fecha_id">Date:</label><br>
+         <!-- Campo de fecha con valor minimo la fecha de hoy -->
+          <input type="date" id="fecha_id" name='fecha' min="2024-02-01">
+        </p>
+        <p>
+         <label for="instructions_id">Notes:</label><br>
+         <!-- Área de texto -->
+          <textarea id="intructions_id" name="instrucciones"></textarea>
+        </p>
+       </fieldset>
+       <fieldset>
+         <input type='submit' value='Enviar'>
+         <input type='reset' value='limpiar'>
+        <!-- Botón para enviar -->
+        <!-- Botón para resetear el formulario -->
+       </fieldset>
+      </form></div>
+      <div><img src="banner.jpg"></div>
+    </div>
+    
+</main>
+<footer>
+  <p> 2024 Musk. All Rights Reserved.</p>
+</footer>
+</body>
+      
+    
+
+      
